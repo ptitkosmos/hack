@@ -6,3 +6,8 @@ You are free to share it. You can also copy if you include credits.
 ![](./insomnihack/logo.jpg)
 
 * [2022](./insomnihack/2022/index.md)
+
+## [Try hack me](https://tryhackme.com/)
+![](./tryhackme/logo.jpg)
+
+* [Advent of Cyber '23 Side Quest](./tryhackme/2023-advent-cyber-side-quest/index.md) : Coming soon (after 27th December)
