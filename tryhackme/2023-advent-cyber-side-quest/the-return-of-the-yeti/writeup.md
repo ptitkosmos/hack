@@ -8,7 +8,7 @@ In this challenge we are given a pcapng file and part of a walkthrough with 5 qu
  * What is the pass for this Wifi ?
  * What software has been used to access juicy content ?
  * What is the case number ?
- * What is the content of the yetikey1.txt file ?
+ * What is the content of the `yetikey1.txt` file ?
 
  For this challenge, we are using the software wireshark. Open the file with it. The first thing you see is the traffic with the Wifi: `FreeWifiBFC`
  ![](wireshark1.png)
@@ -40,7 +40,9 @@ In wireshark, add the key in Settings > Protocols > TLS : Add RSA key.
 ![](wireshark42.png)
 Now the RDP traffic is readeable. We are looking for user interaction. One useful is the clip board where is the case number: `31337-0`
 ![](wireshark43.png)
-Keep looking in next exchange (quite funny though), and see the content of the file: `1-1f9548f131522e85ea30e801dfd9b1a4e526003f9e83301faad85e6154ef2834`
+Keep looking in next exchange (quite funny though), and see the content of the file: 
 ![](wireshark5.png)
 
-And that's it, you got the 1rst flag !
+`1-1f9548f131522e85ea30e801dfd9b1a4e526003f9e83301faad85e6154ef2834`
+
+#### And that's it, you got the 1st flag !
